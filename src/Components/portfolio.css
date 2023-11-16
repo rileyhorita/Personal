@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.category {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 200;
+    color: #2481fa;
+}
+
+.port-page {
+    display: flex;
+    padding: 0 25%;
+    /* 20% space on both sides */
+    box-sizing: border-box;
+    /* Include padding in the width calculation */
+    align-items: flex-start;
+    /* Elements inside will stack vertically at the top */
+    flex-direction: column;
+    /* Elements will stack vertically */
+    /* 100% of the viewport height for vertical centering */
+}
+
+.blog-page-image {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.date-section {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.blog-content-section p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+

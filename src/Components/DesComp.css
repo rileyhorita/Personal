@@ -1,0 +1,14 @@
+
+.contained{
+    display: inline;
+    justify-content: space-between;
+    background-color: white;
+    margin-left: 40px;;
+    margin-right: auto;
+    
+    
+}
+.imagess{
+    width: 25%;
+    padding: 30px;
+}

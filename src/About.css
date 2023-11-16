@@ -1,0 +1,68 @@
+* {
+    font-family: Poppins;
+  }
+
+p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.about-page {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.row {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.box {
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.about-pic {
+    margin-top: 50px;
+    max-width: 50%; /* Ensure that each image is the same size */
+    height: auto;
+}
+.head h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+.contain{
+    display: flex;
+}
+  .list {
+    list-style: none;
+    padding: 60px;
+    padding-top: 150px;
+   text-align: left;
+
+    
+  }
+  .litems{
+    margin-bottom: 30px;
+  }

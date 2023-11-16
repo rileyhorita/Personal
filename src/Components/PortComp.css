@@ -1,0 +1,42 @@
+*{
+    color: black; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.container {
+    display: flex;
+    margin-left: 4rem;
+    margin-top: 5rem;
+    padding-right: 7rem;
+    
+}
+
+.date{
+    padding: 0px;
+    color: #2481fa;
+
+}
+.description_div{
+    margin-left:  3vw;
+}
+
+.details {
+    padding: 5px;
+    margin-top: 40px;
+    list-style: none;
+}
+
+.imagesss {
+    width: 50%;
+}
+
+.heading {
+    margin-top: 30px;
+}
