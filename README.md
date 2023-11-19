@@ -1,2 +1,2 @@
-# Personal
+# personal-project
 Personal website/ portfolio
