@@ -10,6 +10,7 @@ import Footer from './Components/Footer';
 import PP from './pages/pp';
 import Port from './pages/port';
 import SparkleComponent from './Sparkle';
+import Links from './Links';
 
 
 import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom';
