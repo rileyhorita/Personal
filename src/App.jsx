@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Home from './pages/home.jsx';
-import About from './pages/About.jsx';
+import About from './pages/about.jsx';
 import Calvin from './pages/calvin.jsx';
 import Riley from './pages/riley.jsx';
 import Will from './pages/will.jsx';
