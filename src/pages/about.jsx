@@ -24,7 +24,7 @@ function About() {
           <p>Hi! I'm Riley. Originally from LA, I currently reside in The Bay as a junior at the University of California, Berkeley. Go Bears!</p>
           <p>Here are some things about me:</p>
           <div class= "contain">
-          <img class='about-pic' src="public/rileypic.jpg" />
+          <img class='about-pic' src="public/profpic.jpg" />
             <ul class= "list">
               <li class="litems">Age: 20 <GoPerson /></li>
               <li class="litems">Majors: Cognitive science <LuBrainCog /></li>
