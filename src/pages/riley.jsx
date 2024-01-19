@@ -6,7 +6,7 @@ const riley_data = {
   category: 'ARTIST',
   title: 'Riley Horita Loves Bladee',
   subtitle: 'Life is all about having fun and making memories with the people who matter.',
-  image: '/public/blade.jpg',
+  image: '/blade.jpg',
   date: 'October 24, 2023',
   caption: 'Bladee',
   name: 'Riley Horita',

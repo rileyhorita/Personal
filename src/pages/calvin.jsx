@@ -7,7 +7,7 @@ const calvin_data = {
   category: 'ARTIST',
   title: 'Calvin Duong Loves Childish Gambino',
   subtitle: 'Life is all about having fun and making memories with the people who matter.',
-  image: '/public/childish_gambino.jpg',
+  image: '/childish_gambino.jpg',
   date: 'October 24, 2023',
   content: 'Childish Gambino',
   name: 'Calvin Duong',

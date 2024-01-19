@@ -11,10 +11,14 @@ import { PiGuitar } from "react-icons/pi";
 import { MdOutlineVideogameAsset } from "react-icons/md";
 import { VscPiano } from "react-icons/vsc";
 import { GoPerson } from "react-icons/go";
+import Navbar from '../Navbar';
 
 
 function About() {
   return (
+    <>
+    <Navbar />
+    
     <div class='about-page'>
       <div className="head">
         <h1>A little background...</h1>
@@ -24,7 +28,7 @@ function About() {
           <p>Hi! I'm Riley. Originally from LA, I currently reside in The Bay as a junior at the University of California, Berkeley. Go Bears!</p>
           <p>Here are some things about me:</p>
           <div class= "contain">
-          <img class='about-pic' src="public/profpic.jpg" />
+          <img class='about-pic' src="profpic.jpg" />
             <ul class= "list">
               <li class="litems">Age: 20 <GoPerson /></li>
               <li class="litems">Majors: Cognitive science <LuBrainCog /></li>
@@ -40,7 +44,7 @@ function About() {
         <br />
         <br />
     </div>
-    
+    </>
   );
 }
 export default About

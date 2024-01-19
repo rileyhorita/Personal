@@ -7,7 +7,7 @@ const will_data = {
   category: 'LIFESTYLE',
   title: 'William Nguyen Loves Everything Nintendo',
   subtitle: 'Life is all about having fun and making memories with the people who matter.',
-  image: '/public/william_blog_pic.JPG',
+  image: '/william_blog_pic.JPG',
   date: 'October 24, 2023',
   caption: 'Me and a Yoshi plush at Bellagio Conservatory & Botanical Gardens',
   name: 'William Nguyen',
