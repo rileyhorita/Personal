@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../Components/Footer';
 import BlogPage from '../Components/BlogPage';
+import Navbar from '../Navbar';
 
 const riley_data = {
   category: 'ARTIST',
@@ -17,6 +18,7 @@ const riley_data = {
 function Riley() {
   return (
     <div>
+      <Navbar/>
       <BlogPage blogPageData={riley_data} />
     </div>
   )

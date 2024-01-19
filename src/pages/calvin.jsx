@@ -17,6 +17,7 @@ const calvin_data = {
 function Calvin() {
   return (
     <div>
+      <Navbar />
       <BlogPage blogPageData={calvin_data} />
     </div>
   )

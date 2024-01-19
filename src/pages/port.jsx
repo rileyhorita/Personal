@@ -18,6 +18,7 @@ const new_data = {
 function Port() {
   return (
     <div>
+      <Navbar/>
       <PortfolioPage portfolioPageData={new_data} />
     </div>
   )

@@ -6,6 +6,7 @@ import DesArticle from '../Components/DesComp';
 function PP() {
     return (
       <div>
+        <Navbar/>
         <div className = "welcome" > 
         <h1>Portfolio</h1>
         </div>
