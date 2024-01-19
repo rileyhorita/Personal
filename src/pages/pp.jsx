@@ -13,7 +13,7 @@ function PP() {
         <br/>
         <h2 className= "welcome">------ UI/UX Projects ------</h2>
         <div className= "desc">
-        <PortComp heading = "Artist Magnet" description = "Non-profit work for Artist Magnet, an organization founded to help aspiring artists expand their audience and further their careers." second= "Redesigned and refigured back and front-end of the website for more efficient user experience" third= "Figma, HTML, CSS, JS, RubyonRails" href = './port' artistImage = "artistmag.png"/>
+        <PortComp heading = "Artist Magnet" description = "Non-profit work for Artist Magnet, an organization founded to help aspiring artists expand their audience and further their careers." second= "Redesigned and refigured back and front-end of the website for more efficient user experience" third= "Figma, HTML, CSS, JS, RubyonRails" href = 'https://www.artistmagnet.com/' artistImage = "artistmag.png"/>
         <PortComp heading = "Journi App" description ="An itinerary generator for any destination input" second="Figma, HTML, CSS, JS, JSX, JSON, APIs" third= "https://planyourjourni.netlify.app/" href = 'https://planyourjourni.netlify.app/' artistImage = "journi.png"/>
         <PortComp heading = "A Visual Poem" description ="An editorial piece for Gag Magazine" second="Poem written and illustrated by Riley Horita" third= "HTML, CSS" href = './port' artistImage = "personal.png"/>
         <br/>
