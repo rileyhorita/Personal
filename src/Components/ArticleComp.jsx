@@ -6,9 +6,9 @@ import './ArticleComp.css';
             <img class = "imagesss" src= {artistImage} />
             <div class= "description_div">
                     <h3 className = "date" > Jan 1 2023 </h3>
-                    <a href={href}>
+                    <Link to={href}>
                         <h1>{heading}</h1>
-                    </a>
+                    </Link>
                     <h2> {description} </h2> 
             </div>
         </div>
