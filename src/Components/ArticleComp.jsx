@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './ArticleComp.css';
     function createArticle({heading, description, href , artistImage}){
         return (
