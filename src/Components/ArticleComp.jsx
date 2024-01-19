@@ -1,5 +1,5 @@
 import React from 'react';
-import './articleComp.css';
+import './ArticleComp.css';
     function createArticle({heading, description, href , artistImage}){
         return (
         <div className = "container">

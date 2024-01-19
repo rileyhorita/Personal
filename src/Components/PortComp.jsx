@@ -1,5 +1,5 @@
 import React from 'react';
-import './portComp.css';
+import './PortComp.css';
     function createPortArticle({heading, description, href , artistImage, second, third}){
         return (
         <div className = "container">

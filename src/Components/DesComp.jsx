@@ -1,5 +1,5 @@
 import React from 'react';
-import './desComp.css';
+import './DesComp.css';
     function DesArticle({ artistImage}){
         return (
         <div className = "contained">
