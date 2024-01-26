@@ -36,9 +36,9 @@ function PP() {
         <DesArticle artistImage="gore.jpg"/>
         <DesArticle artistImage="ok.jpg"/>
         <DesArticle artistImage="bleh.jpg"/>
-        <DesArticle artistImage="cfg1.jpg"/>
-        <DesArticle artistImage="cfg2.jpg"/>
-        <DesArticle artistImage="cfg3.jpg"/>
+        <DesArticle artistImage="cfg1.jpeg"/>
+        <DesArticle artistImage="cfg2.jpeg"/>
+        <DesArticle artistImage="cfg3.jpeg"/>
   
         <br />
         <br />
