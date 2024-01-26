@@ -30,7 +30,6 @@ function About() {
           <div class= "contain">
           <img class='about-pic' src="profpic.jpg" />
             <ul class= "list">
-              <li class="litems">Age: 20 <GoPerson /></li>
               <li class="litems">Majors: Cognitive science <LuBrainCog /></li>
               <li class="litems">Minors: Data Science <MdDataExploration /></li>
               <li class="litems">Passions: UI/UX, design, art, data science, social good <HiOutlinePaintBrush /> <LiaUserFriendsSolid /></li>
