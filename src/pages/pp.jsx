@@ -28,17 +28,20 @@ function PP() {
         <br/>
         <br />
         <br/>
-        <h2 className= "welcome">------ Design and Art ------</h2>
+        <h2 className= "welcome">------ Code for Good Design ------</h2>
+        <DesArticle artistImage="cfg1.jpeg"/>
+        <DesArticle artistImage="cfg2.jpeg"/>
+        <DesArticle artistImage="cfg3.jpeg"/>
+        <h2 className= "welcome">------ AAA Design ------</h2>
         <DesArticle artistImage="hiking.png"/>
         <DesArticle artistImage="newest.png"/>
+        <h2 className= "welcome">------ Art ------</h2>
         <DesArticle artistImage="nana.jpg"/>
         <DesArticle artistImage="mary.jpg"/>
         <DesArticle artistImage="gore.jpg"/>
         <DesArticle artistImage="ok.jpg"/>
         <DesArticle artistImage="bleh.jpg"/>
-        <DesArticle artistImage="cfg1.jpeg"/>
-        <DesArticle artistImage="cfg2.jpeg"/>
-        <DesArticle artistImage="cfg3.jpeg"/>
+       
   
         <br />
         <br />
