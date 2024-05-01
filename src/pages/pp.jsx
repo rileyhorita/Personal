@@ -34,9 +34,9 @@ function PP() {
         <DesArticle artistImage="cfg3.jpeg"/>
         <DesArticle artistImage="hiking.png"/>
         <DesArticle artistImage="newest.png"/>
+        <DesArticle artistImage="rileyredesign.png"/>
         <DesArticle artistImage="clinicconnects.png"/>
         <DesArticle artistImage="poshmark.png"/>
-        <DesArticle artistImage="rileyredesign.png"/>
 
         <h2 className= "welcome">------ Art ------</h2>
         <DesArticle artistImage="nana.jpg"/>
