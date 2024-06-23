@@ -59,7 +59,7 @@ function App() {
     <div class='wrapper'>
       {/* <Navbar /> */}
       <RouterProvider router={router}></RouterProvider>
-      <Footer />
+  
     </div>
   );
 }

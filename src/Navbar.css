@@ -5,12 +5,8 @@
   align-items: center;
   background-color: white;
   color: black; /* Text color */
-  padding: 15px 5%; /* Adjust padding as needed */
-  height: 75px;
-  margin-bottom: 30px;
-  border: 1px solid #ccc; /* Use a solid gray border */
-  border-radius: 10px; /* Add some border-radius for rounded corners */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+
+
 }
   
   

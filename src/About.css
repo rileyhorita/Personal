@@ -1,68 +1,127 @@
 * {
-    font-family: Poppins;
-  }
-
-p{
-    font-size: 20px;
-    padding-top: 20px;
+  font-family: Poppins;
 }
+
+p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
 .about-page {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  background-image: url('/backgroundpp.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 110vh; /* Ensure the container covers the full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.name{
+  position: absolute;
+  left: 30vh;
+  bottom: 50vh;
+  letter-spacing: 10px;
+  font-size: 80px;
+  background: none;
+
 }
 
-.row {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
+.content {
+  background: none;
 }
 
-.box {
-    flex: 1;
-    margin-left: 70px;
-    margin-right: 70px;
+
+.navwrapper{
+  position: absolute;
+  right: 30px;
+  margin-bottom: 90vh;
+}
+.marquee {
+  width: 300vh;
+  white-space: nowrap;
+  position: relative;
+  margin-top: 40vh;
+  background: none;
 }
 
-.about-pic {
-    margin-top: 50px;
-    max-width: 50%; /* Ensure that each image is the same size */
-    height: auto;
+.marquee-content {
+  display: inline-block;
+  color: black;
+  background: none;
+  animation: marquee 25s linear infinite;
 }
-.head h1 {
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
-    animation: 
-      typing 3.5s steps(40, end),
-      blink-caret .75s step-end infinite;
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
   }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.second-background {
+  background-image: url('/secondpic.png');  
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 110vh; /* Ensure the container covers the full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange; }
-  }
-.contain{
-    display: flex;
 }
-  .list {
-    list-style: none;
-    padding: 60px;
-    padding-top: 150px;
-   text-align: left;
+.secondcontent {
+  background: none;
+}
 
-    
-  }
-  .litems{
-    margin-bottom: 30px;
-  }
+.p1{
+  background: none;
+  font-size: 16px;
+  width: 600px;
+  position: absolute;
+  top: 120vh;
+  right: 30vh;
+}
+.p2{
+  background: none;
+  font-size: 16px;
+  width: 600px;
+  position: absolute;
+  top: 180vh;
+  left: 30vh;
+}
+
+.Portfolioname {
+  width: 400px;
+  height: 180px;
+  padding-top: 30px;
+}
+.portwrapper{
+  display: flex;
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center; /* Centers the content vertically */
+ 
+}
+
+.clickableimages{
+  height: 300px;
+  width: 300px;
+}
+
+.threepics{
+  display: flex;
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center; /* Centers the content vertically */
+}
+
+.descwrapper{
+  display: flex;
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center; /* Centers the content vertically */
+  gap: 210px;
+  padding-bottom: 140px;
+}
+
